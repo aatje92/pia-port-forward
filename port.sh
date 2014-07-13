@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ ! -f ~/.pia_client_id ]; then
 head -n 100 /dev/urandom | md5sum | tr -d " -" > ~/.pia_client_id
 else
